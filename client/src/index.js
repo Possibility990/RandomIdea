@@ -1,4 +1,4 @@
-import '@fortawesome/fontawesome-free/css/all.css'
+// import '@fortawesome/fontawesome-free/css/all.css'
 
 import Modal  from '../component/modal.js';
 import IdeaForm from '../component/ideaForm';
