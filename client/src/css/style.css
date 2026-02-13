@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+ background-color: #f4f4f4;
+ font: normal 16px Arial Helvetica Sans-serif;
+ color:#000;  
+ line-height: 1.6em;
+}
+
+
+.testing{
+    background-color: black;
+    border: 1px red solid;
+   width: 100%;
+   color: white;
+}
+#modal{
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0,0, 0.025);
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+    margin: 0 0;
+    z-index: 1;
+    top:0;
+    left:0;
+    /* transform: translate(-50%, -50%); */
+  
+
+}
+
+.show{
+    display: block;
+}
+
+.modal-box{
+    /* border: 1px black solid; */
+    border-radius: 10px;
+    width: 600px;
+    min-height: 200px;
+    margin: 90px auto;
+    background-color:steelblue;
+    /* overflow: hidden; */
+    /* position: relative; */
+}
+
+.modal-box label{
+    display: block;
+    color: #f4f4f4;
+    padding: 5px 15px;
+}
+
+.modal-box  input, textarea {
+    /* position: absolute;
+    width: 95%;
+    left: 50%;
+    transform: translate(-50%); */
+    width: 95%;
+    margin: 5px 15px;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    
+    
+}
+
+textarea{
+    height: 60px;
+}
+
+.btn{
+    width: 95%;
+    background-color: #000;
+    color: #f4f4f4;
+    padding: 15px 10px;
+    margin: 15px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.btn:hover{
+    border: none;
+    background-color: green;
+    color: #f4f4f4;
+}
+
+#container-main{
+    width: 90%;
+    margin: 0 auto;
+    
+    
+}
+
+.container-1 h2{
+    text-align: center;
+    margin: 20px 15px;
+}
+
+
+header i{
+    font-size: 16px;
+    color: rgba(15, 118, 15, 0.826);
+}
+
+#container-flex{
+    /* border: red solid 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#container-flex .card{
+    background-color: white;
+    border-radius: 10px;
+    min-height: 60px;
+    flex-basis: 40%;
+    margin: 10px 15px;
+
+}
+
+
+.card-body .font-awesome{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    color: red;
+    margin: 5px 5px;
+    padding: 5px 5px 0 0;
+}
+
+#container-main .card-text{
+    font-weight: bold;
+    padding:0 10px 5px 10px;
+}
+
+.card h5[data-tag="technology"]{
+    background-color: coral;
+    color: white;
+    width: 110px;
+    text-align: center;
+    padding:5px 0;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card h5[data-tag="innovation"]{
+    background-color:brown;
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding:5px 0;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card h5[data-tag="software"]{
+    background-color:  red;
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card h5[data-tag="business"]{
+    background-color:  black;
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card h5[data-tag="education"]{
+    background-color:orange;
+    color: #f4f4f4;
+    width: 80px;
+    text-align: center;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card h5[data-tag="health"]{
+    background-color:purple;
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card h5[data-tag="invention"]{
+    background-color:blue;
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card h5[data-tag="health"]{
+    background-color:seagreen;
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+small{
+    padding: 5px 10px 0 10px;
+    
+    
+    
+ 
+}
+
+@media(max-width:960px){
+#container-flex .card{
+    background-color: white;
+    border-radius: 10px;
+    min-height: 60px;
+    flex-basis: 100%;
+    /* margin: 10px 15px; */
+
+}
+}
+
+
+
+
