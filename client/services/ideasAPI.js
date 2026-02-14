@@ -2,7 +2,10 @@ import axios from 'axios'
 
 class IdeasAPI{
     constructor(){
-        this._APIURL = 'http://localhost:5000/api/ideas'
+        //Before hosting
+        // this._APIURL = 'http://localhost:5000/api/ideas'
+        //after hosting
+        this._APIURL = '/api/ideas'
     }
 
     getIdeas(){
